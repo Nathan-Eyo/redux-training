@@ -4,7 +4,7 @@ import { increment, decrement, reset, incrementByAmount } from '../features/coun
 import { useDispatch } from 'react-redux';
 
 const Counter = () => {
-const count = useSelector((state) => state.counter.count);
+const count = useSelector((state) => state.test.count);
 const dispatch = useDispatch();
 const [Amount, setAmount] = useState(0);
 
